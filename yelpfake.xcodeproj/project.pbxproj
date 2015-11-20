@@ -23,6 +23,7 @@
 		428EC1981BFF062A00995E58 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1971BFF062A00995E58 /* CustomCell.swift */; };
 		428EC19E1BFF136600995E58 /* RestInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC19D1BFF136600995E58 /* RestInfoViewController.swift */; };
 		428EC1A01BFF2A0300995E58 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC19F1BFF2A0300995E58 /* Database.swift */; };
+		428EC2281BFFB25500995E58 /* AddCravingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC2271BFFB25500995E58 /* AddCravingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		428EC1971BFF062A00995E58 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		428EC19D1BFF136600995E58 /* RestInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestInfoViewController.swift; path = ../RestInfoViewController.swift; sourceTree = "<group>"; };
 		428EC19F1BFF2A0300995E58 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		428EC2271BFFB25500995E58 /* AddCravingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCravingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				428EC18D1BFEFA0900995E58 /* ProfileViewController.swift */,
 				428EC18F1BFEFA1C00995E58 /* AllRestViewController.swift */,
 				428EC19D1BFF136600995E58 /* RestInfoViewController.swift */,
+				428EC2271BFFB25500995E58 /* AddCravingViewController.swift */,
 				428EC1971BFF062A00995E58 /* CustomCell.swift */,
 				428EC1911BFEFA2500995E58 /* DatesTableViewController.swift */,
 				428EC1931BFEFA3800995E58 /* MapViewController.swift */,
@@ -286,6 +289,7 @@
 				428EC1921BFEFA2500995E58 /* DatesTableViewController.swift in Sources */,
 				428EC1A01BFF2A0300995E58 /* Database.swift in Sources */,
 				428EC18A1BFEF9E400995E58 /* LoginViewController.swift in Sources */,
+				428EC2281BFFB25500995E58 /* AddCravingViewController.swift in Sources */,
 				428EC1961BFF025700995E58 /* CancelButtonDelegate.swift in Sources */,
 				428EC1901BFEFA1C00995E58 /* AllRestViewController.swift in Sources */,
 				428EC1981BFF062A00995E58 /* CustomCell.swift in Sources */,
