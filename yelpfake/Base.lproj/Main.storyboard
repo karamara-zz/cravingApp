@@ -845,7 +845,7 @@
                                                     </constraints>
                                                     <state key="normal" title="Location"/>
                                                     <connections>
-                                                        <action selector="locationButton:" destination="v9g-vL-kqC" eventType="touchUpInside" id="4MT-8j-WD6"/>
+                                                        <action selector="locationButton:" destination="v9g-vL-kqC" eventType="touchUpInside" id="OtV-vo-e44"/>
                                                         <segue destination="XgU-5E-4Fd" kind="show" identifier="LocationSWay" id="ePH-FD-hCf"/>
                                                     </connections>
                                                 </button>
@@ -890,15 +890,18 @@
                     <navigationItem key="navigationItem" title="Add Cravings" id="MnT-oR-qp2">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="5Up-5D-6sF">
                             <connections>
-                                <action selector="cancelButton:" destination="v9g-vL-kqC" id="D08-6A-ahr"/>
+                                <action selector="cancelButton:" destination="v9g-vL-kqC" id="LuV-vM-odu"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="HLu-ZM-KLF">
                             <connections>
-                                <action selector="doneButton:" destination="v9g-vL-kqC" id="No3-zT-pPo"/>
+                                <action selector="doneButton:" destination="v9g-vL-kqC" id="dHJ-5o-ELA"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="nameText" destination="xzG-JZ-FfD" id="9f9-uH-4BU"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nL2-W9-a9q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
