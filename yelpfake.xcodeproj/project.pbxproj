@@ -23,6 +23,8 @@
 		428EC1981BFF062A00995E58 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1971BFF062A00995E58 /* CustomCell.swift */; };
 		428EC19E1BFF136600995E58 /* RestInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC19D1BFF136600995E58 /* RestInfoViewController.swift */; };
 		428EC1A01BFF2A0300995E58 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC19F1BFF2A0300995E58 /* Database.swift */; };
+		A7EF8B091BFFB09700E85E0A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8B081BFFB09700E85E0A /* Restaurant.swift */; };
+		A7EF8B0B1BFFB16E00E85E0A /* extMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8B0A1BFFB16E00E85E0A /* extMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		428EC1971BFF062A00995E58 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		428EC19D1BFF136600995E58 /* RestInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestInfoViewController.swift; path = ../RestInfoViewController.swift; sourceTree = "<group>"; };
 		428EC19F1BFF2A0300995E58 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		A7EF8B081BFFB09700E85E0A /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		A7EF8B0A1BFFB16E00E85E0A /* extMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				428EC1971BFF062A00995E58 /* CustomCell.swift */,
 				428EC1911BFEFA2500995E58 /* DatesTableViewController.swift */,
 				428EC1931BFEFA3800995E58 /* MapViewController.swift */,
+				A7EF8B081BFFB09700E85E0A /* Restaurant.swift */,
+				A7EF8B0A1BFFB16E00E85E0A /* extMapView.swift */,
 				428EC15F1BFEDB5200995E58 /* Main.storyboard */,
 				428EC1951BFF025700995E58 /* CancelButtonDelegate.swift */,
 				428EC19F1BFF2A0300995E58 /* Database.swift */,
@@ -287,10 +293,12 @@
 				428EC1A01BFF2A0300995E58 /* Database.swift in Sources */,
 				428EC18A1BFEF9E400995E58 /* LoginViewController.swift in Sources */,
 				428EC1961BFF025700995E58 /* CancelButtonDelegate.swift in Sources */,
+				A7EF8B091BFFB09700E85E0A /* Restaurant.swift in Sources */,
 				428EC1901BFEFA1C00995E58 /* AllRestViewController.swift in Sources */,
 				428EC1981BFF062A00995E58 /* CustomCell.swift in Sources */,
 				428EC19E1BFF136600995E58 /* RestInfoViewController.swift in Sources */,
 				428EC18E1BFEFA0900995E58 /* ProfileViewController.swift in Sources */,
+				A7EF8B0B1BFFB16E00E85E0A /* extMapView.swift in Sources */,
 				428EC15C1BFEDB5200995E58 /* AppDelegate.swift in Sources */,
 				428EC18C1BFEF9FE00995E58 /* RegisterViewController.swift in Sources */,
 				428EC1941BFEFA3800995E58 /* MapViewController.swift in Sources */,
