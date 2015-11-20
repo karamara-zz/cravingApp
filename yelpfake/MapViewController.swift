@@ -14,10 +14,14 @@ import CoreLocation
 class MapViewController: UIViewController, CLLocationManagerDelegate {
 
     var locationManager: CLLocationManager!
-    var restaurants: [Restaurant!]!
-    
+    let restaurant1 = Restaurant(title: "Pho All Day", locationName: "locationName", foodType: "generic Location", coordinate: CLLocationCoordinate2D(latitude: 47.6118372, longitude: -122.1999748))
+    let restaurant2 = Restaurant(title: "Pho Cyclo Café", locationName: "locationName", foodType: "generic Location", coordinate: CLLocationCoordinate2D(latitude: 47.6148948669434, longitude: -122.195762634277))
+    func getAllrestaurants(){
+            
+        }
     @IBOutlet weak var mapView: MKMapView!
     override func viewDidLoad() {
+        getAllrestaurants()
         if(CLLocationManager.locationServicesEnabled()){
             locationManager = CLLocationManager()
             locationManager.delegate = self
@@ -26,6 +30,8 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.startUpdatingLocation()
             print("location manager")
         }
+        mapView.addAnnotation(restaurant1)
+        mapView.addAnnotation(restaurant2)
         mapView.showsUserLocation = true
         super.viewDidLoad()
         
