@@ -26,7 +26,6 @@
 		428EC22C1BFFCBF800995E58 /* addCravingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC22B1BFFCBF800995E58 /* addCravingViewController.swift */; };
 		A7EF8B091BFFB09700E85E0A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8B081BFFB09700E85E0A /* Restaurant.swift */; };
 		A7EF8B0B1BFFB16E00E85E0A /* extMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8B0A1BFFB16E00E85E0A /* extMapView.swift */; };
-		A7EF8B111BFFCFDC00E85E0A /* apiCall.json in Resources */ = {isa = PBXBuildFile; fileRef = A7EF8B101BFFCFDC00E85E0A /* apiCall.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +71,6 @@
 		428EC22B1BFFCBF800995E58 /* addCravingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addCravingViewController.swift; sourceTree = "<group>"; };
 		A7EF8B081BFFB09700E85E0A /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		A7EF8B0A1BFFB16E00E85E0A /* extMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extMapView.swift; sourceTree = "<group>"; };
-		A7EF8B101BFFCFDC00E85E0A /* apiCall.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = apiCall.json; path = "../../../CodingDojoWeek12/HonoluluArt copy/apiCall.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +136,6 @@
 				428EC22B1BFFCBF800995E58 /* addCravingViewController.swift */,
 				428EC1951BFF025700995E58 /* CancelButtonDelegate.swift */,
 				428EC19F1BFF2A0300995E58 /* Database.swift */,
-				A7EF8B101BFFCFDC00E85E0A /* apiCall.json */,
 				428EC1621BFEDB5200995E58 /* Assets.xcassets */,
 				428EC1641BFEDB5200995E58 /* LaunchScreen.storyboard */,
 				428EC1671BFEDB5200995E58 /* Info.plist */,
@@ -271,7 +268,6 @@
 			files = (
 				428EC1661BFEDB5200995E58 /* LaunchScreen.storyboard in Resources */,
 				428EC1631BFEDB5200995E58 /* Assets.xcassets in Resources */,
-				A7EF8B111BFFCFDC00E85E0A /* apiCall.json in Resources */,
 				428EC1611BFEDB5200995E58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
