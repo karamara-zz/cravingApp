@@ -20,7 +20,7 @@
 		428EC1921BFEFA2500995E58 /* DatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1911BFEFA2500995E58 /* DatesTableViewController.swift */; };
 		428EC1941BFEFA3800995E58 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1931BFEFA3800995E58 /* MapViewController.swift */; };
 		428EC1961BFF025700995E58 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1951BFF025700995E58 /* CancelButtonDelegate.swift */; };
-		428EC1981BFF062A00995E58 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1971BFF062A00995E58 /* CustomCell.swift */; };
+		428EC1981BFF062A00995E58 /* JoinCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1971BFF062A00995E58 /* JoinCustomCell.swift */; };
 		428EC19E1BFF136600995E58 /* RestInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC19D1BFF136600995E58 /* RestInfoViewController.swift */; };
 		428EC1A01BFF2A0300995E58 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC19F1BFF2A0300995E58 /* Database.swift */; };
 		A7EF8B091BFFB09700E85E0A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8B081BFFB09700E85E0A /* Restaurant.swift */; };
@@ -64,7 +64,7 @@
 		428EC1911BFEFA2500995E58 /* DatesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatesTableViewController.swift; sourceTree = "<group>"; };
 		428EC1931BFEFA3800995E58 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		428EC1951BFF025700995E58 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CancelButtonDelegate.swift; path = ../CancelButtonDelegate.swift; sourceTree = "<group>"; };
-		428EC1971BFF062A00995E58 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		428EC1971BFF062A00995E58 /* JoinCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinCustomCell.swift; sourceTree = "<group>"; };
 		428EC19D1BFF136600995E58 /* RestInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestInfoViewController.swift; path = ../RestInfoViewController.swift; sourceTree = "<group>"; };
 		428EC19F1BFF2A0300995E58 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		A7EF8B081BFFB09700E85E0A /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
@@ -123,6 +123,7 @@
 				428EC1891BFEF9E400995E58 /* LoginViewController.swift */,
 				428EC18B1BFEF9FE00995E58 /* RegisterViewController.swift */,
 				428EC18D1BFEFA0900995E58 /* ProfileViewController.swift */,
+				428EC2271BFFB25500995E58 /* AddCravingViewController.swift */,
 				428EC18F1BFEFA1C00995E58 /* AllRestViewController.swift */,
 				428EC19D1BFF136600995E58 /* RestInfoViewController.swift */,
 				428EC1971BFF062A00995E58 /* CustomCell.swift */,
@@ -296,7 +297,7 @@
 				428EC1961BFF025700995E58 /* CancelButtonDelegate.swift in Sources */,
 				A7EF8B091BFFB09700E85E0A /* Restaurant.swift in Sources */,
 				428EC1901BFEFA1C00995E58 /* AllRestViewController.swift in Sources */,
-				428EC1981BFF062A00995E58 /* CustomCell.swift in Sources */,
+				428EC1981BFF062A00995E58 /* JoinCustomCell.swift in Sources */,
 				428EC19E1BFF136600995E58 /* RestInfoViewController.swift in Sources */,
 				428EC18E1BFEFA0900995E58 /* ProfileViewController.swift in Sources */,
 				A7EF8B0B1BFFB16E00E85E0A /* extMapView.swift in Sources */,

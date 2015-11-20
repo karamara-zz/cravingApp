@@ -8,14 +8,22 @@
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class ProfileViewController: UIViewController, CancelButtonDelegate {
+    
+    //CancelButton Delegate
+    func CancelButtonPressed(controller: UIViewController) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "CravingsSWay" {
+        if segue.identifier == "addCravingSWay" {
             
             let navigationController = segue.destinationViewController as! UINavigationController
             
-            let controller = navigationController.topViewController as! MapViewController
+            let controller = navigationController.topViewController as! addCravingViewController
+            
+            controller.cancelButtonDelegate = self
         }
     }
     override func viewDidLoad() {
