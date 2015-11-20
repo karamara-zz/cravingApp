@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		428EC15C1BFEDB5200995E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC15B1BFEDB5200995E58 /* AppDelegate.swift */; };
-		428EC15E1BFEDB5200995E58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC15D1BFEDB5200995E58 /* ViewController.swift */; };
 		428EC1611BFEDB5200995E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428EC15F1BFEDB5200995E58 /* Main.storyboard */; };
 		428EC1631BFEDB5200995E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428EC1621BFEDB5200995E58 /* Assets.xcassets */; };
 		428EC1661BFEDB5200995E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428EC1641BFEDB5200995E58 /* LaunchScreen.storyboard */; };
 		428EC1711BFEDB5200995E58 /* yelpfakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1701BFEDB5200995E58 /* yelpfakeTests.swift */; };
 		428EC17C1BFEDB5200995E58 /* yelpfakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC17B1BFEDB5200995E58 /* yelpfakeUITests.swift */; };
+		428EC18A1BFEF9E400995E58 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1891BFEF9E400995E58 /* LoginViewController.swift */; };
+		428EC18C1BFEF9FE00995E58 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC18B1BFEF9FE00995E58 /* RegisterViewController.swift */; };
+		428EC18E1BFEFA0900995E58 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC18D1BFEFA0900995E58 /* ProfileViewController.swift */; };
+		428EC1901BFEFA1C00995E58 /* AllRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC18F1BFEFA1C00995E58 /* AllRestViewController.swift */; };
+		428EC1921BFEFA2500995E58 /* DatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1911BFEFA2500995E58 /* DatesTableViewController.swift */; };
+		428EC1941BFEFA3800995E58 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1931BFEFA3800995E58 /* MapViewController.swift */; };
+		428EC1961BFF025700995E58 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1951BFF025700995E58 /* CancelButtonDelegate.swift */; };
+		428EC1981BFF062A00995E58 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC1971BFF062A00995E58 /* CustomCell.swift */; };
+		428EC19E1BFF136600995E58 /* RestInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC19D1BFF136600995E58 /* RestInfoViewController.swift */; };
+		428EC1A01BFF2A0300995E58 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC19F1BFF2A0300995E58 /* Database.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		428EC1581BFEDB5200995E58 /* yelpfake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yelpfake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		428EC15B1BFEDB5200995E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		428EC15D1BFEDB5200995E58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		428EC1601BFEDB5200995E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		428EC1621BFEDB5200995E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		428EC1651BFEDB5200995E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		428EC1771BFEDB5200995E58 /* yelpfakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yelpfakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		428EC17B1BFEDB5200995E58 /* yelpfakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yelpfakeUITests.swift; sourceTree = "<group>"; };
 		428EC17D1BFEDB5200995E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428EC1891BFEF9E400995E58 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		428EC18B1BFEF9FE00995E58 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		428EC18D1BFEFA0900995E58 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		428EC18F1BFEFA1C00995E58 /* AllRestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllRestViewController.swift; sourceTree = "<group>"; };
+		428EC1911BFEFA2500995E58 /* DatesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatesTableViewController.swift; sourceTree = "<group>"; };
+		428EC1931BFEFA3800995E58 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		428EC1951BFF025700995E58 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CancelButtonDelegate.swift; path = ../CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		428EC1971BFF062A00995E58 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		428EC19D1BFF136600995E58 /* RestInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestInfoViewController.swift; path = ../RestInfoViewController.swift; sourceTree = "<group>"; };
+		428EC19F1BFF2A0300995E58 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +116,17 @@
 			isa = PBXGroup;
 			children = (
 				428EC15B1BFEDB5200995E58 /* AppDelegate.swift */,
-				428EC15D1BFEDB5200995E58 /* ViewController.swift */,
+				428EC1891BFEF9E400995E58 /* LoginViewController.swift */,
+				428EC18B1BFEF9FE00995E58 /* RegisterViewController.swift */,
+				428EC18D1BFEFA0900995E58 /* ProfileViewController.swift */,
+				428EC18F1BFEFA1C00995E58 /* AllRestViewController.swift */,
+				428EC19D1BFF136600995E58 /* RestInfoViewController.swift */,
+				428EC1971BFF062A00995E58 /* CustomCell.swift */,
+				428EC1911BFEFA2500995E58 /* DatesTableViewController.swift */,
+				428EC1931BFEFA3800995E58 /* MapViewController.swift */,
 				428EC15F1BFEDB5200995E58 /* Main.storyboard */,
+				428EC1951BFF025700995E58 /* CancelButtonDelegate.swift */,
+				428EC19F1BFF2A0300995E58 /* Database.swift */,
 				428EC1621BFEDB5200995E58 /* Assets.xcassets */,
 				428EC1641BFEDB5200995E58 /* LaunchScreen.storyboard */,
 				428EC1671BFEDB5200995E58 /* Info.plist */,
@@ -256,8 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				428EC15E1BFEDB5200995E58 /* ViewController.swift in Sources */,
+				428EC1921BFEFA2500995E58 /* DatesTableViewController.swift in Sources */,
+				428EC1A01BFF2A0300995E58 /* Database.swift in Sources */,
+				428EC18A1BFEF9E400995E58 /* LoginViewController.swift in Sources */,
+				428EC1961BFF025700995E58 /* CancelButtonDelegate.swift in Sources */,
+				428EC1901BFEFA1C00995E58 /* AllRestViewController.swift in Sources */,
+				428EC1981BFF062A00995E58 /* CustomCell.swift in Sources */,
+				428EC19E1BFF136600995E58 /* RestInfoViewController.swift in Sources */,
+				428EC18E1BFEFA0900995E58 /* ProfileViewController.swift in Sources */,
 				428EC15C1BFEDB5200995E58 /* AppDelegate.swift in Sources */,
+				428EC18C1BFEF9FE00995E58 /* RegisterViewController.swift in Sources */,
+				428EC1941BFEFA3800995E58 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = yelpfake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PaulKwon.yelpfake;
@@ -410,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = yelpfake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PaulKwon.yelpfake;
@@ -484,6 +522,7 @@
 				428EC1821BFEDB5200995E58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		428EC1831BFEDB5200995E58 /* Build configuration list for PBXNativeTarget "yelpfakeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +531,7 @@
 				428EC1851BFEDB5200995E58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		428EC1861BFEDB5200995E58 /* Build configuration list for PBXNativeTarget "yelpfakeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +540,7 @@
 				428EC1881BFEDB5200995E58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
