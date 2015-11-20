@@ -76,7 +76,7 @@ class allRestaurantsTableViewController: UITableViewController, UISearchResultsU
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("CustomCell") as! CustomCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("CustomCell") as! JoinCustomCell
         
         if self.resultSearchController.active {
             
