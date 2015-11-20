@@ -25,7 +25,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="A2I-b6-V2H">
                                 <rect key="frame" x="30" y="9" width="540" height="581"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLy-wZ-BAH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLy-wZ-BAH">
                                         <rect key="frame" x="249" y="0.0" width="42" height="110"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -39,7 +39,7 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NAs-Mo-KSq">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NAs-Mo-KSq">
                                         <rect key="frame" x="0.0" y="284" width="540" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YuV-7g-vXA">
@@ -58,7 +58,7 @@
                                         </subviews>
                                         <animations/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TtJ-fJ-kv1">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TtJ-fJ-kv1">
                                         <rect key="frame" x="0.0" y="314" width="540" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sU-dN-8Wq">
@@ -77,7 +77,7 @@
                                         </subviews>
                                         <animations/>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="300" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oei-83-kdz">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="300" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oei-83-kdz">
                                         <rect key="frame" x="20" y="344" width="500" height="50"/>
                                         <animations/>
                                         <color key="backgroundColor" red="1" green="0.1255464291" blue="0.066408943839999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -99,14 +99,14 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Dont have account? Please Register" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Omb-rZ-0P8">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dont have account? Please Register" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Omb-rZ-0P8">
                                         <rect key="frame" x="133" y="510" width="275" height="21"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6k4-uJ-lh0">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6k4-uJ-lh0">
                                         <rect key="frame" x="240" y="531" width="60" height="50"/>
                                         <animations/>
                                         <color key="backgroundColor" red="1" green="0.12554642914364622" blue="0.066408943844508239" alpha="1" colorSpace="calibratedRGB"/>
@@ -844,7 +844,7 @@
                                                     </constraints>
                                                     <state key="normal" title="Location"/>
                                                     <connections>
-                                                        <action selector="locationButton:" destination="v9g-vL-kqC" eventType="touchUpInside" id="4MT-8j-WD6"/>
+                                                        <action selector="locationButton:" destination="v9g-vL-kqC" eventType="touchUpInside" id="OtV-vo-e44"/>
                                                         <segue destination="XgU-5E-4Fd" kind="show" identifier="LocationSWay" id="ePH-FD-hCf"/>
                                                     </connections>
                                                 </button>
@@ -885,15 +885,18 @@
                     <navigationItem key="navigationItem" title="Add Cravings" id="MnT-oR-qp2">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="5Up-5D-6sF">
                             <connections>
-                                <action selector="cancelButton:" destination="v9g-vL-kqC" id="D08-6A-ahr"/>
+                                <action selector="cancelButton:" destination="v9g-vL-kqC" id="LuV-vM-odu"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="HLu-ZM-KLF">
                             <connections>
-                                <action selector="doneButton:" destination="v9g-vL-kqC" id="No3-zT-pPo"/>
+                                <action selector="doneButton:" destination="v9g-vL-kqC" id="dHJ-5o-ELA"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="nameText" destination="xzG-JZ-FfD" id="9f9-uH-4BU"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nL2-W9-a9q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
