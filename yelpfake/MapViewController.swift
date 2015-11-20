@@ -26,6 +26,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.startUpdatingLocation()
             print("location manager")
         }
+        mapView.showsUserLocation = true
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
